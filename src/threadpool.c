@@ -3,7 +3,7 @@
 #include <pthread.h>
 #include <unistd.h>
 
-#include "threadpool.h"
+#include "../inc/threadpool.h"
 
 void* worker_thread(void* arg){
     threadpool_t* pool = (threadpool_t*)arg;
